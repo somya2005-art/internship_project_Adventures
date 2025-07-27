@@ -4,6 +4,8 @@
 🧭 Overview
  - The page introduces users to exciting travel locations, encouraging exploration through a visually immersive layout. It includes rich content sections, engaging transitions, and seamless swiper components for a smooth user journey.
 
+Check it out on: https://somya2005-art.github.io/internship_project_Adventures/
+
 🛠️ Built With
 - HTML5
 - Sass – Leveraging Sass functions and modular SCSS structure
