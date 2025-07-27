@@ -1,0 +1,707 @@
+@media(min-width:991px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    @function convert($px) {
+        @return ($px/12) * 1vw;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+
+        .container {
+            max-width: convert(950);
+
+        }
+
+        header {
+            background: #141C25;
+            height: convert(85.861);
+            margin-bottom: convert(56.14);
+
+            .container {
+
+                .header-holder {
+                    display: flex;
+                    padding-top: convert(23);
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .hamburger {
+                        display: none;
+                    }
+
+                    .logo {
+                        img {
+                            width: convert(148.655);
+                            height: convert(40.847);
+                        }
+                    }
+
+                    .btns {
+                        .logo {
+                            display: none;
+                        }
+
+                        .phone-logo {
+                            display: none;
+                        }
+
+                        .head-list {
+                            display: flex;
+                            align-items: center;
+                            gap: convert(40.85);
+
+                            li {
+                                list-style-type: none;
+
+                                svg {
+                                    display: none;
+                                }
+
+                                .dropdown {
+                                    button {
+
+                                        color: #787B7E;
+                                        font-family: "Roboto", sans-serif;
+                                        font-size: convert(13.338);
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                        background-color: #141C25;
+                                        border: none;
+
+                                        &:hover,
+                                        &:focus,
+                                        &:active,
+                                        &:focus-visible,
+                                        &:focus-within {
+                                            border-color: none;
+                                            outline: none;
+                                            box-shadow: none;
+
+                                        }
+                                    }
+                                }
+
+
+                                a {
+                                    text-decoration: none;
+                                    color: #787B7E;
+                                    font-family: "Roboto", sans-serif;
+                                    font-size: convert(13.338);
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+
+                                    svg {
+                                        display: none;
+                                    }
+
+                                    &:hover,
+                                    &:active,
+                                    &.focus {
+                                        color: #FFF;
+                                    }
+
+                                }
+
+                                .log {
+                                    border-radius: convert(7.688);
+                                    background: #226E65;
+                                    color: #FFF;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: convert(13.667);
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    padding: convert(10) convert(31.08) convert(10) convert(33);
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .fading {
+        margin-bottom: convert(28);
+       
+
+        .container {
+           
+            .fade-holder {
+                
+                .text {
+                    p {
+                        color: #141C25;
+                        font-family: Graphik;
+                        font-size: convert(38.347);
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: convert(49.852);
+                        text-align: left;
+                        /* 130% */
+
+                        span {
+                            color: #226E65;
+                        }
+                    }
+                }
+
+                .para {
+                    img{
+                        display:none;
+                        object-fit: cover;
+                    }
+                    color: #000;
+                    text-align: center;
+                    font-family: "Lato", sans-serif;
+                    font-size: convert(20.638);
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: convert(25.624);
+                    /* 124.161% */
+                    margin-top: convert(28);
+                    margin-bottom: convert(42);
+                }
+
+                .phone-slide1, .phone-slide2{
+                    display:none;
+                }
+
+                .sliding {
+                    position: relative;
+
+
+                    .country {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+
+                        p {
+                            text-align: right;
+                            color: #FFF;
+                            font-family: Graphik;
+                            font-size: convert(162.36);
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: convert(211.068);
+                            /* 130% */
+                            z-index: 1;
+                            margin: 0;
+                        }
+                    }
+
+                    .country1 {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        width: 100%;
+
+                        p {
+                            text-align: left;
+                            color: #FFF;
+                            font-family: Graphik;
+                            font-size: convert(162.36);
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: convert(211.068);
+                            /* 130% */
+                            z-index: 1;
+                            margin: 0;
+                        }
+                    }
+
+                    .splide {
+                        .splide__track {
+                            .splide__list {
+                                .splide__slide {
+                                    width: convert(950);
+                                    height: convert(462);
+
+                                }
+                            }
+                        }
+                    }
+
+                    .single {
+                        .image {
+                            width: 100%;
+                            height: convert(462);
+                            overflow: hidden;
+                            border-radius: convert(29.097);
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit:cover;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .pictures {
+        margin-bottom: convert(83);
+
+        .container {
+            .pictures-holder {
+                .text {
+                    p {
+                        color: #141C25;
+                        font-family: Graphik;
+                        font-size: convert(38.347);
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: convert(49.852);
+
+                        /* 130% */
+                        span {
+                            color: #226E65;
+                        }
+                    }
+                }
+
+                .image-holder{
+                    display:none;
+                }
+
+                .row1 {
+                    margin-bottom: convert(48);
+
+                    .holder {
+                        display: flex;
+                        flex-wrap: wrap;
+                        position: relative;
+
+                        .manali {
+                            position: absolute;
+                            bottom: 0;
+                            right: convert(643);
+
+                            p {
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Graphik;
+                                font-size: convert(37.026);
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: convert(48.133);
+                                /* 130% */
+                            }
+                        }
+
+                        .image1 {
+                            width: 37.37%;
+                            height: convert(330);
+                            border-radius: convert(30);
+                            overflow: hidden;
+                            position: relative;
+
+                            .goa {
+                                position: absolute;
+                                bottom: 0;
+                                left: convert(24);
+
+                                p {
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: Graphik;
+                                    font-size: convert(37.026);
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: convert(48.133);
+                                    /* 130% */
+                                }
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                        }
+
+                        .image2 {
+                            width: 37.37%;
+                            height: convert(330);
+                            border-radius: convert(30);
+                            overflow: hidden;
+                            margin-left: 5.79%;
+                            position: relative;
+
+                            .manali {
+                                position: absolute;
+                                bottom: 0;
+                                left: convert(24);
+
+                                p {
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: Graphik;
+                                    font-size: convert(37.026);
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: convert(48.133);
+                                    /* 130% */
+                                }
+                            }
+
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                        }
+
+                        .para {
+                            width: 13.58%;
+                            color: #000;
+                            font-family: "Lato", sans-serif;
+                            font-size: convert(20.638);
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: convert(25.624);
+                            /* 124.161% */
+                            margin-left: 3.16%;
+                        }
+                    }
+                }
+
+                .row2 {
+                    .holder {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .image1 {
+                            width: 37.37%;
+                            height: convert(330);
+                            border-radius: convert(30);
+                            overflow: hidden;
+                            position: relative;
+                            
+                            .Andaman {
+                                position: absolute;
+                                bottom: 0;
+                                left: convert(24);
+
+                                p {
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: Graphik;
+                                    font-size: convert(37.026);
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: convert(48.133);
+                                    /* 130% */
+                                }
+                            }
+
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                        }
+
+                        .image2 {
+                            width: 37.37%;
+                            height: convert(330);
+                            border-radius: convert(30);
+                            overflow: hidden;
+                            margin-left: 5.79%;
+                            position: relative;
+                            
+                            .Kerala {
+                                position: absolute;
+                                bottom: 0;
+                                left: convert(24);
+
+                                p {
+                                    color: #FFF;
+                                    text-align: center;
+                                    font-family: Graphik;
+                                    font-size: convert(37.026);
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: convert(48.133);
+                                    /* 130% */
+                                }
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+
+                        }
+
+                        .para {
+                            width: 13.58%;
+                            color: #000;
+                            font-family: "Lato", sans-serif;
+                            font-size: convert(20.638);
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: convert(25.624);
+                            /* 124.161% */
+                            margin-right: 3.16%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .gallery {
+        .container {
+            .title {
+                margin-bottom: convert(26);
+                h3 {
+                    color: #141C25;
+                    text-align: center;
+                    font-family: Graphik;
+                    font-size: convert(38.347);
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: convert(49.852);
+                    /* 130% */
+
+                    span {
+                        color: #226E65;
+                    }
+                }
+
+                p {
+                    color: #141C25;
+                    font-family: "Lato", sans-serif;
+                    font-size: convert(15.978);
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: convert(27.163);
+                    text-align: center;
+                    /* 170% */
+                }
+            }
+        }
+
+        .group-slide {
+            .splide3 {
+                .splide__track {
+                    .splide__list {
+                        .splide__slide {
+                            width: convert(1200);
+                            height: convert(599.17);
+                            
+                        }
+                        
+                    }
+                }
+            }
+            
+            .designed-swipe {
+                
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                    padding-left: convert(8);
+                    object-fit: cover;
+                }
+
+            }
+        }
+    }
+
+    footer {
+        margin-bottom: convert(34);
+        margin-top: convert(57.83);
+
+        .container {
+
+            .contain-holder {
+
+                border-radius: convert(41.336);
+                background: #141C25;
+                padding-top: convert(47);
+                padding-bottom: convert(28);
+                padding-left: convert(66.14);
+                padding-right: convert(66.14);
+
+
+                .ending {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    margin-top: convert(74);
+
+                    .copy {
+                        p {
+                            color: #FFF;
+                            font-family: "Lato", sans-serif;
+                            font-size: convert(12.881);
+                            font-style: normal;
+                            font-weight: 500;
+                        }
+                    }
+
+                    .list {
+
+                        ul {
+                            display: flex;
+                            gap: convert(25);
+
+                            li {
+                                color: #FFF;
+
+                                &::marker {
+                                    font-size: convert(10);
+
+                                }
+
+                                a {
+                                    text-decoration: none;
+                                    color: #FFF;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: convert(12.881);
+                                    font-style: normal;
+                                    font-weight: 500;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer-holder {
+
+                    display: flex;
+                    gap: 6.572667vw;
+
+                    .logo-pics {
+
+                        .logo {
+                            width: convert(339.987);
+                            height: convert(93.42);
+                            margin-bottom: convert(41);
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                        }
+
+                        .pics {
+                            display: flex;
+                            gap: convert(17.12);
+
+
+                            .google {
+                                width: convert(95.9);
+                                height: convert(27.2);
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .apple {
+                                width: convert(95.9);
+                                height: convert(27.2);
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .lists {
+                        display: flex;
+                        gap: convert(30);
+
+                        ul {
+                            margin: 0;
+                            padding: 0;
+
+                            .special {
+                                a {
+
+                                    color: #FFF;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: convert(12.881);
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    text-decoration: none;
+                                }
+                            }
+
+
+                            li {
+                                list-style-type: none;
+                                margin-bottom: convert(16.72);
+
+                                a {
+                                    color: #A6A6A6;
+                                    font-family: "Lato", sans-serif;
+                                    font-size: convert(12.881);
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    text-decoration: none;
+
+                                    &:hover,
+                                    &:active,
+                                    &:focus {
+                                        color: #FFF;
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        .li3 {
+                            margin-top: 0.516667vw;
+                            margin-left: convert(50);
+
+                            a {
+                                border-radius: convert(4.96);
+                                border: convert(0.827) solid #161C28;
+                                background: #226E65;
+                                display: flex;
+                                padding: convert(9.921);
+
+                                img {
+                                    width: convert(16.535);
+                                    height: convert(16.535);
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

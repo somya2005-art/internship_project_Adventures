@@ -1,0 +1,519 @@
+@media (min-width: 991px) {
+  @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  * .container {
+    max-width: 79.1666666667vw;
+  }
+  * header {
+    background: #141C25;
+    height: 7.1550833333vw;
+    margin-bottom: 4.6783333333vw;
+  }
+  * header .container .header-holder {
+    display: flex;
+    padding-top: 1.9166666667vw;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  * header .container .header-holder .hamburger {
+    display: none;
+  }
+  * header .container .header-holder .logo img {
+    width: 12.3879166667vw;
+    height: 3.4039166667vw;
+  }
+  * header .container .header-holder .btns .logo {
+    display: none;
+  }
+  * header .container .header-holder .btns .phone-logo {
+    display: none;
+  }
+  * header .container .header-holder .btns .head-list {
+    display: flex;
+    align-items: center;
+    gap: 3.4041666667vw;
+  }
+  * header .container .header-holder .btns .head-list li {
+    list-style-type: none;
+  }
+  * header .container .header-holder .btns .head-list li svg {
+    display: none;
+  }
+  * header .container .header-holder .btns .head-list li .dropdown button {
+    color: #787B7E;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1115vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #141C25;
+    border: none;
+  }
+  * header .container .header-holder .btns .head-list li .dropdown button:hover, * header .container .header-holder .btns .head-list li .dropdown button:focus, * header .container .header-holder .btns .head-list li .dropdown button:active, * header .container .header-holder .btns .head-list li .dropdown button:focus-visible, * header .container .header-holder .btns .head-list li .dropdown button:focus-within {
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+  }
+  * header .container .header-holder .btns .head-list li a {
+    text-decoration: none;
+    color: #787B7E;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1115vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  * header .container .header-holder .btns .head-list li a svg {
+    display: none;
+  }
+  * header .container .header-holder .btns .head-list li a:hover, * header .container .header-holder .btns .head-list li a:active, * header .container .header-holder .btns .head-list li a.focus {
+    color: #FFF;
+  }
+  * header .container .header-holder .btns .head-list li .log {
+    border-radius: 0.6406666667vw;
+    background: #226E65;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1389166667vw;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0.8333333333vw 2.59vw 0.8333333333vw 2.75vw;
+  }
+  .fading {
+    margin-bottom: 2.3333333333vw;
+  }
+  .fading .container .fade-holder .text p {
+    color: #141C25;
+    font-family: Graphik;
+    font-size: 3.1955833333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.1543333333vw;
+    text-align: left;
+    /* 130% */
+  }
+  .fading .container .fade-holder .text p span {
+    color: #226E65;
+  }
+  .fading .container .fade-holder .para {
+    color: #000;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 1.7198333333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1353333333vw;
+    /* 124.161% */
+    margin-top: 2.3333333333vw;
+    margin-bottom: 3.5vw;
+  }
+  .fading .container .fade-holder .para img {
+    display: none;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .fading .container .fade-holder .phone-slide1, .fading .container .fade-holder .phone-slide2 {
+    display: none;
+  }
+  .fading .container .fade-holder .sliding {
+    position: relative;
+  }
+  .fading .container .fade-holder .sliding .country {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .fading .container .fade-holder .sliding .country p {
+    text-align: right;
+    color: #FFF;
+    font-family: Graphik;
+    font-size: 13.53vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.589vw;
+    /* 130% */
+    z-index: 1;
+    margin: 0;
+  }
+  .fading .container .fade-holder .sliding .country1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+  .fading .container .fade-holder .sliding .country1 p {
+    text-align: left;
+    color: #FFF;
+    font-family: Graphik;
+    font-size: 13.53vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.589vw;
+    /* 130% */
+    z-index: 1;
+    margin: 0;
+  }
+  .fading .container .fade-holder .sliding .splide .splide__track .splide__list .splide__slide {
+    width: 79.1666666667vw;
+    height: 38.5vw;
+  }
+  .fading .container .fade-holder .sliding .single .image {
+    width: 100%;
+    height: 38.5vw;
+    overflow: hidden;
+    border-radius: 2.42475vw;
+  }
+  .fading .container .fade-holder .sliding .single .image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures {
+    margin-bottom: 6.9166666667vw;
+  }
+  .pictures .container .pictures-holder .text p {
+    color: #141C25;
+    font-family: Graphik;
+    font-size: 3.1955833333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.1543333333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .text p span {
+    color: #226E65;
+  }
+  .pictures .container .pictures-holder .image-holder {
+    display: none;
+  }
+  .pictures .container .pictures-holder .row1 {
+    margin-bottom: 4vw;
+  }
+  .pictures .container .pictures-holder .row1 .holder {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .pictures .container .pictures-holder .row1 .holder .manali {
+    position: absolute;
+    bottom: 0;
+    right: 53.5833333333vw;
+  }
+  .pictures .container .pictures-holder .row1 .holder .manali p {
+    color: #FFF;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.0855vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0110833333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .row1 .holder .image1 {
+    width: 37.37%;
+    height: 27.5vw;
+    border-radius: 2.5vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .pictures .container .pictures-holder .row1 .holder .image1 .goa {
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+  }
+  .pictures .container .pictures-holder .row1 .holder .image1 .goa p {
+    color: #FFF;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.0855vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0110833333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .row1 .holder .image1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures .container .pictures-holder .row1 .holder .image2 {
+    width: 37.37%;
+    height: 27.5vw;
+    border-radius: 2.5vw;
+    overflow: hidden;
+    margin-left: 5.79%;
+    position: relative;
+  }
+  .pictures .container .pictures-holder .row1 .holder .image2 .manali {
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+  }
+  .pictures .container .pictures-holder .row1 .holder .image2 .manali p {
+    color: #FFF;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.0855vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0110833333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .row1 .holder .image2 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures .container .pictures-holder .row1 .holder .para {
+    width: 13.58%;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 1.7198333333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1353333333vw;
+    /* 124.161% */
+    margin-left: 3.16%;
+  }
+  .pictures .container .pictures-holder .row2 .holder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image1 {
+    width: 37.37%;
+    height: 27.5vw;
+    border-radius: 2.5vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image1 .Andaman {
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image1 .Andaman p {
+    color: #FFF;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.0855vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0110833333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .row2 .holder .image1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image2 {
+    width: 37.37%;
+    height: 27.5vw;
+    border-radius: 2.5vw;
+    overflow: hidden;
+    margin-left: 5.79%;
+    position: relative;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image2 .Kerala {
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+  }
+  .pictures .container .pictures-holder .row2 .holder .image2 .Kerala p {
+    color: #FFF;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.0855vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0110833333vw;
+    /* 130% */
+  }
+  .pictures .container .pictures-holder .row2 .holder .image2 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .pictures .container .pictures-holder .row2 .holder .para {
+    width: 13.58%;
+    color: #000;
+    font-family: "Lato", sans-serif;
+    font-size: 1.7198333333vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1353333333vw;
+    /* 124.161% */
+    margin-right: 3.16%;
+  }
+  .gallery .container .title {
+    margin-bottom: 2.1666666667vw;
+  }
+  .gallery .container .title h3 {
+    color: #141C25;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 3.1955833333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.1543333333vw;
+    /* 130% */
+  }
+  .gallery .container .title h3 span {
+    color: #226E65;
+  }
+  .gallery .container .title p {
+    color: #141C25;
+    font-family: "Lato", sans-serif;
+    font-size: 1.3315vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.2635833333vw;
+    text-align: center;
+    /* 170% */
+  }
+  .gallery .group-slide .splide3 .splide__track .splide__list .splide__slide {
+    width: 100vw;
+    height: 49.9308333333vw;
+  }
+  .gallery .group-slide .designed-swipe img {
+    width: 100%;
+    height: 100%;
+    padding-left: 0.6666666667vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  footer {
+    margin-bottom: 2.8333333333vw;
+    margin-top: 4.8191666667vw;
+  }
+  footer .container .contain-holder {
+    border-radius: 3.4446666667vw;
+    background: #141C25;
+    padding-top: 3.9166666667vw;
+    padding-bottom: 2.3333333333vw;
+    padding-left: 5.5116666667vw;
+    padding-right: 5.5116666667vw;
+  }
+  footer .container .contain-holder .ending {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 6.1666666667vw;
+  }
+  footer .container .contain-holder .ending .copy p {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.0734166667vw;
+    font-style: normal;
+    font-weight: 500;
+  }
+  footer .container .contain-holder .ending .list ul {
+    display: flex;
+    gap: 2.0833333333vw;
+  }
+  footer .container .contain-holder .ending .list ul li {
+    color: #FFF;
+  }
+  footer .container .contain-holder .ending .list ul li::marker {
+    font-size: 0.8333333333vw;
+  }
+  footer .container .contain-holder .ending .list ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.0734166667vw;
+    font-style: normal;
+    font-weight: 500;
+  }
+  footer .container .contain-holder .footer-holder {
+    display: flex;
+    gap: 6.572667vw;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .logo {
+    width: 28.33225vw;
+    height: 7.785vw;
+    margin-bottom: 3.4166666667vw;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .pics {
+    display: flex;
+    gap: 1.4266666667vw;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .pics .google {
+    width: 7.9916666667vw;
+    height: 2.2666666667vw;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .pics .google img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .pics .apple {
+    width: 7.9916666667vw;
+    height: 2.2666666667vw;
+  }
+  footer .container .contain-holder .footer-holder .logo-pics .pics .apple img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .container .contain-holder .footer-holder .lists {
+    display: flex;
+    gap: 2.5vw;
+  }
+  footer .container .contain-holder .footer-holder .lists ul {
+    margin: 0;
+    padding: 0;
+  }
+  footer .container .contain-holder .footer-holder .lists ul .special a {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 1.0734166667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  footer .container .contain-holder .footer-holder .lists ul li {
+    list-style-type: none;
+    margin-bottom: 1.3933333333vw;
+  }
+  footer .container .contain-holder .footer-holder .lists ul li a {
+    color: #A6A6A6;
+    font-family: "Lato", sans-serif;
+    font-size: 1.0734166667vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  footer .container .contain-holder .footer-holder .lists ul li a:hover, footer .container .contain-holder .footer-holder .lists ul li a:active, footer .container .contain-holder .footer-holder .lists ul li a:focus {
+    color: #FFF;
+  }
+  footer .container .contain-holder .footer-holder .lists .li3 {
+    margin-top: 0.516667vw;
+    margin-left: 4.1666666667vw;
+  }
+  footer .container .contain-holder .footer-holder .lists .li3 a {
+    border-radius: 0.4133333333vw;
+    border: 0.0689166667vw solid #161C28;
+    background: #226E65;
+    display: flex;
+    padding: 0.82675vw;
+  }
+  footer .container .contain-holder .footer-holder .lists .li3 a img {
+    width: 1.3779166667vw;
+    height: 1.3779166667vw;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/font/font.css">
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-holder">
+                <div class="logo">
+                    <a href="#"><img src="assets/images/logo.png"></a>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="btns">
+                    <div class="phone-logo">
+                        <a href="#"><img src="assets/images/logo.png"></a>
+                    </div>
+                    <ul class="head-list">
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.99984 2.23145C9.23845 2.23145 8.49162 2.44007 7.84046 2.83466L3.6738 5.35966C3.06108 5.73095 2.55444 6.25397 2.20282 6.87819C1.85121 7.50241 1.66649 8.20675 1.6665 8.92318V14.1665C1.6665 15.2716 2.10549 16.3314 2.88689 17.1128C3.66829 17.8942 4.7281 18.3332 5.83317 18.3332H14.1665C15.2716 18.3332 16.3314 17.8942 17.1128 17.1128C17.8942 16.3314 18.3332 15.2716 18.3332 14.1665V8.92235C18.333 8.20608 18.1482 7.50176 17.7966 6.87774C17.445 6.25372 16.9385 5.73087 16.3259 5.35966L12.1592 2.83466C11.5081 2.44008 10.7612 2.23145 9.99984 2.23145ZM8.70422 4.26003C9.09491 4.02328 9.54301 3.89811 9.99984 3.89811C10.4567 3.89811 10.9048 4.02328 11.2954 4.26003L15.4621 6.78503C15.8297 7.00776 16.1336 7.32147 16.3446 7.69589C16.5555 8.07025 16.6664 8.49266 16.6665 8.92235V14.1665C16.6665 14.8296 16.4031 15.4654 15.9343 15.9343C15.4654 16.4031 14.8295 16.6665 14.1665 16.6665H13.3332V14.1665C13.3332 13.2825 12.982 12.4346 12.3569 11.8095C11.7317 11.1844 10.8839 10.8332 9.99984 10.8332C9.11578 10.8332 8.26793 11.1844 7.64281 11.8095C7.01769 12.4346 6.6665 13.2825 6.6665 14.1665V16.6665H5.83317C5.17013 16.6665 4.53424 16.4031 4.0654 15.9343C3.59656 15.4654 3.33317 14.8296 3.33317 14.1665V8.92318C3.33316 8.49332 3.44399 8.07069 3.65496 7.69616C3.86593 7.32163 4.16991 7.00782 4.53755 6.78504L8.70422 4.26003ZM11.1783 12.988C11.4909 13.3006 11.6665 13.7245 11.6665 14.1665V16.6665H8.33317V14.1665C8.33317 13.7245 8.50876 13.3006 8.82132 12.988C9.13388 12.6754 9.55781 12.4999 9.99984 12.4999C10.4419 12.4999 10.8658 12.6754 11.1783 12.988Z"
+                                        fill="white"></path>
+                                </svg>Home</a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M6.66667 7.49992C6.20643 7.49992 5.83333 7.87302 5.83333 8.33325C5.83333 8.79349 6.20643 9.16659 6.66667 9.16659H13.3333C13.7936 9.16659 14.1667 8.79349 14.1667 8.33325C14.1667 7.87302 13.7936 7.49992 13.3333 7.49992H6.66667Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M6.66667 10.8333C6.20643 10.8333 5.83333 11.2063 5.83333 11.6666C5.83333 12.1268 6.20643 12.4999 6.66667 12.4999H10C10.4602 12.4999 10.8333 12.1268 10.8333 11.6666C10.8333 11.2063 10.4602 10.8333 10 10.8333H6.66667Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M6.66667 14.1666C6.20643 14.1666 5.83333 14.5397 5.83333 14.9999C5.83333 15.4602 6.20643 15.8333 6.66667 15.8333H13.3333C13.7936 15.8333 14.1667 15.4602 14.1667 14.9999C14.1667 14.5397 13.7936 14.1666 13.3333 14.1666H6.66667Z"
+                                        fill="white"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17.399 4.28124C17.3319 4.11893 17.2335 3.97147 17.1093 3.84733L14.4863 1.22436C14.2365 0.974244 13.8976 0.833563 13.5441 0.833252H3.83333C3.47971 0.833252 3.14057 0.973728 2.89052 1.22378C2.64048 1.47382 2.5 1.81296 2.5 2.16659V17.8333C2.5 18.0083 2.53449 18.1817 2.60149 18.3435C2.6685 18.5053 2.76671 18.6522 2.89052 18.7761C3.01433 18.8999 3.16132 18.9981 3.32309 19.0651C3.48486 19.1321 3.65824 19.1666 3.83333 19.1666H16.1667C16.3418 19.1666 16.5151 19.1321 16.6769 19.0651C16.8387 18.9981 16.9857 18.8999 17.1095 18.7761C17.2333 18.6523 17.3315 18.5053 17.3985 18.3435C17.4655 18.1817 17.5 18.0083 17.5 17.8333V4.79184L16.6667 4.79159L17.5 4.79363L17.5 4.79184C17.5002 4.61666 17.4659 4.44315 17.399 4.28124ZM12.5 4.58325C12.5 5.27361 13.0596 5.83325 13.75 5.83325H15.8333V17.4999H4.16667V2.49992H12.5V4.58325ZM15.0715 4.16659L14.1667 3.26176V4.16659H15.0715Z"
+                                        fill="white"></path>
+                                </svg>Courses</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-bs-toggle="dropdown">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.9998 1.66675C12.6462 1.66675 12.3071 1.80722 12.057 2.05727C11.807 2.30732 11.6665 2.64646 11.6665 3.00008V6.66675H7.99984C7.64622 6.66675 7.30708 6.80722 7.05703 7.05727C6.80698 7.30732 6.6665 7.64646 6.6665 8.00008V12.5001H2.99984C2.64622 12.5001 2.30708 12.6406 2.05703 12.8906C1.80698 13.1407 1.6665 13.4798 1.6665 13.8334V17.0001C1.6665 17.3537 1.80698 17.6928 2.05703 17.9429C2.30708 18.1929 2.64622 18.3334 2.99984 18.3334H16.9998C17.3535 18.3334 17.6926 18.1929 17.9426 17.9429C18.1927 17.6928 18.3332 17.3537 18.3332 17.0001V3.00008C18.3332 2.64646 18.1927 2.30732 17.9426 2.05727C17.6926 1.80722 17.3535 1.66675 16.9998 1.66675H12.9998ZM8.33317 8.33341H11.6665V16.6667H8.33317V8.33341ZM16.6665 16.6667H13.3332V3.33341H16.6665V16.6667ZM6.6665 14.1667V16.6667H3.33317V14.1667H6.6665Z"
+                                        fill="white"></path>
+                                </svg> Packages </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="log" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    viewBox="0 0 20 20" fill="none">
+                                    <path
+                                        d="M5.8335 1.66675C5.17045 1.66675 4.53457 1.93014 4.06573 2.39898C3.59689 2.86782 3.3335 3.50371 3.3335 4.16675V15.8334C3.3335 16.4965 3.59689 17.1323 4.06573 17.6012C4.53457 18.07 5.17045 18.3334 5.8335 18.3334H14.1668C14.8299 18.3334 15.4658 18.07 15.9346 17.6012C16.4034 17.1323 16.6668 16.4965 16.6668 15.8334V15.0001C16.6668 14.5398 16.2937 14.1667 15.8335 14.1667C15.3733 14.1667 15.0002 14.5398 15.0002 15.0001V15.8334C15.0002 16.0544 14.9124 16.2664 14.7561 16.4227C14.5998 16.579 14.3878 16.6667 14.1668 16.6667H5.8335C5.61248 16.6667 5.40052 16.579 5.24424 16.4227C5.08796 16.2664 5.00016 16.0544 5.00016 15.8334V4.16675C5.00016 3.94573 5.08796 3.73377 5.24424 3.57749C5.40052 3.42121 5.61248 3.33341 5.8335 3.33341H14.1668C14.3878 3.33341 14.5998 3.42121 14.7561 3.57749C14.9124 3.73377 15.0002 3.94573 15.0002 4.16675V5.00008C15.0002 5.46032 15.3733 5.83341 15.8335 5.83341C16.2937 5.83341 16.6668 5.46032 16.6668 5.00008V4.16675C16.6668 3.50371 16.4034 2.86782 15.9346 2.39898C15.4658 1.93014 14.8299 1.66675 14.1668 1.66675H5.8335Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M13.9228 6.91083C13.5973 6.58539 13.0697 6.58539 12.7442 6.91083C12.4188 7.23626 12.4188 7.7639 12.7442 8.08934L13.8217 9.16675H10.0002C9.53993 9.16675 9.16683 9.53984 9.16683 10.0001C9.16683 10.4603 9.53993 10.8334 10.0002 10.8334H13.8217L12.7442 11.9108C12.4188 12.2363 12.4188 12.7639 12.7442 13.0893C13.0697 13.4148 13.5973 13.4148 13.9228 13.0893L16.4228 10.5893C16.7482 10.2639 16.7482 9.73626 16.4228 9.41083L13.9228 6.91083Z"
+                                        fill="white"></path>
+                                </svg>Log In/Sign Up</a></li>
+                    </ul>
+                </div>
+
+            </div>
+    </header>
+
+    <section class="fading">
+        <div class="container">
+            <div class="fade-holder">
+                <div class="text">
+                    <p>Global <span>Adventures</span></p>
+                </div>
+                <div class="sliding">
+                    <div class="splide slide1">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/dubai.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/forest.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/walls.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="country">
+                        <p>Dubai</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <img src="assets/images/shape.png">
+                    <p>We work on helping you improve your knowledge, Implementation,<br />Personality and
+                        Presentation.
+                        for this paragraph give.</p>
+                </div>
+                <div class="phone-slide1">
+                    <div class="splide splide-phone1">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <div class="phone">
+                                        <img src="assets/images/dubai-frame.svg">
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="phone">
+                                        <img src="assets/images/dubai-frame.svg">
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="phone">
+                                        <img src="assets/images/dubai-frame.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sliding">
+                    <div class="splide slide">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/goa.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/manali.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splide__slide">
+                                    <div class="single">
+                                        <div class="image">
+                                            <img src="assets/images/walls.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="country1">
+                        <p>Bali</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <img src="assets/images/shape.png">
+                    <p>We work on helping you improve your knowledge, Implementation,<br />Personality and
+                        Presentation.
+                        for this paragraph give.</p>
+                </div>
+            </div>
+    </section>
+    <section class="pictures">
+        <div class="container">
+            <div class="pictures-holder">
+                <div class="text">
+                    <p>Local <span>Escapes</span></p>
+                </div>
+                <div class="row1">
+                    <div class="holder">
+                        <div class="image1">
+                            <div class="goa">
+                                <p>Goa.</p>
+                            </div>
+                            <img src="assets/images/goa.jpg">
+                        </div>
+                        <div class="image2">
+                            <div class="manali">
+                                <p>Manali.</p>
+                            </div>
+                            <img src="assets/images/manali.jpg">
+                        </div>
+                        <div class="para">
+                            <p>We work on helping you improve your knowledge, Implementation, Personality and
+                                Presentation. for this paragraph give.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="holder">
+                        <div class="para">
+                            <p>We work on helping you improve your knowledge, Implementation, Personality and
+                                Presentation. for this paragraph give.</p>
+                        </div>
+                        <div class="image1">
+                            <div class="Andaman">
+                                <p>Andaman.</p>
+                            </div>
+                            <img src="assets/images/andaman.jpg">
+                        </div>
+                        <div class="image2">
+                            <div class="Kerala">
+                                <p>Kerala.</p>
+                            </div>
+                            <img src="assets/images/kerela.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <div class="title">
+                <h3>Our <span>Gallery</span></h3>
+                <p>Unlock Your Potential with Our Knowledge Packs - Enroll Today!</p>
+            </div>
+        </div>
+        <div class="group-slide">
+            <div class="splide splide3">
+                <div class="splide__track">
+                    <div class="splide__list">
+                        <div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div><div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div>
+                        <div class="splide__slide">
+                            <div class="designed-swipe">
+                                <img src="assets/images/Group.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="contain-holder">
+                <div class="footer-holder">
+                    <div class="logo-pics">
+                        <div class="logo">
+                            <a href="#"><img src="assets/images/logo.png"></a>
+                        </div>
+                        <div class="pics">
+                            <div class="google">
+                                <a href="#"><img src="assets/images/Google.svg"></a>
+                            </div>
+                            <div class="apple">
+                                <a href="#"><img src="assets/images/apple.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lists">
+                        <ul>
+                            <li class="special"><a href="#">Support</a></li>
+                            <li><a href="#">Help centre</a></li>
+                            <li><a href="#">Account information</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                        <ul>
+                            <li class="special"><a href="#">Help and Solution</a></li>
+                            <li><a href="#">Talk to support</a></li>
+                            <li><a href="#">Support docs</a></li>
+                            <li><a href="#">Achievements</a></li>
+                            <li><a href="#">Our Goals</a></li>
+                        </ul>
+                        <ul class="li3">
+                            <li><a href="#"><img src="assets/images/facebook.svg"></a></li>
+                            <li><a href="#"><img src="assets/images/twitter.svg"></a></li>
+                            <li><a href="#"><img src="assets/images/linkedin.svg"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ending">
+                    <div class="copy">
+                        <p>© 2024 Idigitalpreneur . Copyright and rights reserved</p>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="">Terms and Condtions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script>
+        var splide = new Splide('.slide1', {
+            type: 'fade',
+            rewind: true,
+            pagination: false,
+            autoplay: true,
+            speed: 2
+        });
+
+        splide.mount();
+    </script>
+
+    <script>
+        var splide = new Splide('.slide', {
+            type: 'fade',
+            rewind: true,
+            pagination: false,
+            autoplay: true,
+            speed: 2
+        });
+
+
+        splide.mount();
+    </script>
+
+
+    <script>
+        const splidee = new Splide('.splide3', {
+
+            autoScroll: {
+                speed: 0.5,
+            },
+        });
+
+        splidee.mount(window.splide.Extensions);
+    </script>
+
+    <script>
+        const splide = new Splide('.splide-phone1', {
+            type: 'loop',
+            drag: 'free',
+            focus: 'center',
+            perPage: 1,
+            pagination: false,
+            arrows: false,
+            autoScroll: {
+                speed: 0.5,
+            },
+        });
+
+        splide.mount(window.splide.Extensions);
+    </script>
+
+</body>
+
+</html>
